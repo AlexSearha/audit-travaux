@@ -55,7 +55,8 @@ export default function AuditCopropriete() {
               <p>
                 <strong>Le problème :</strong> L'aide MaPrimeRénov' est
                 conditionnée à un gain réel de 35 %. L'étude INSEE 2023 montre
-                que dans la réalité, ce gain plafonne souvent à 10 %.{" "}
+                que dans la réalité, ce gain plafonne souvent à moins de 10
+                %.{" "}
               </p>
               <p>
                 <strong>Le risque :</strong> Si l'Anah effectue un contrôle
