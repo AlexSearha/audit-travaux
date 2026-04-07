@@ -280,9 +280,6 @@ export default function AuditCopropriete() {
               plus pouvoir chauffer votre logement car vos anciens radiateurs ne
               seront plus adaptés à la chaleur diffusée.
             </p>
-            <p className="bg-red-700 text-white p-4 font-bold text-center uppercase tracking-wider">
-              Le danger : C'est une vente forcée déguisée.
-            </p>
           </div>
         </ThemeBlock>
 
