@@ -1,4 +1,5 @@
 import {
+  AlertTriangle,
   CreditCard,
   ExternalLink,
   FileWarning,
@@ -92,7 +93,6 @@ export default function AuditCopropriete() {
             </div>
           </div>
         </ThemeBlock>
-
         {/* THÈME 2 - TEXTE INTÉGRAL */}
         <ThemeBlock
           theme="THÈME 2"
@@ -115,12 +115,13 @@ export default function AuditCopropriete() {
               <p className="font-bold text-red-700 leading-snug">
                 S'ils refusent de garantir leurs chiffres, c'est qu'ils ne
                 croient pas eux-mêmes à la rentabilité du projet pour nous
-                (Annexe 1)
+                <Link className="ml-2 underline" href="/#annexe1">
+                  (Annexe)
+                </Link>
               </p>
             </div>
           </div>
         </ThemeBlock>
-
         {/* THÈME 3 */}
         <ThemeBlock
           theme="THÈME 3"
@@ -146,7 +147,6 @@ export default function AuditCopropriete() {
             </p>
           </div>
         </ThemeBlock>
-
         {/* THÈME 4 */}
         <ThemeBlock
           theme="THÈME 4"
@@ -170,7 +170,6 @@ export default function AuditCopropriete() {
             </p>
           </div>
         </ThemeBlock>
-
         {/* THÈME 5 */}
         <ThemeBlock
           theme="THÈME 5"
@@ -203,7 +202,6 @@ export default function AuditCopropriete() {
             </li>
           </ul>
         </ThemeBlock>
-
         {/* THÈME 6 */}
         <ThemeBlock
           theme="THÈME 6"
@@ -222,7 +220,6 @@ export default function AuditCopropriete() {
             </p>
           </div>
         </ThemeBlock>
-
         {/* THÈME 7 */}
         <ThemeBlock theme="THÈME 7" title="Le Cas des Balcons">
           <div className="space-y-4">
@@ -239,7 +236,6 @@ export default function AuditCopropriete() {
             </p>
           </div>
         </ThemeBlock>
-
         {/* THÈME 8 */}
         <ThemeBlock
           theme="THÈME 8"
@@ -267,7 +263,6 @@ export default function AuditCopropriete() {
             </p>
           </div>
         </ThemeBlock>
-
         {/* THÈME 9 */}
         <ThemeBlock
           theme="THÈME 9"
@@ -289,7 +284,6 @@ export default function AuditCopropriete() {
             </p>
           </div>
         </ThemeBlock>
-
         {/* THÈME 10 */}
         <ThemeBlock
           theme="THÈME 10"
@@ -315,7 +309,6 @@ export default function AuditCopropriete() {
             </p>
           </div>
         </ThemeBlock>
-
         {/* THÈME 11 */}
         <ThemeBlock
           theme="THÈME 11"
@@ -340,7 +333,6 @@ export default function AuditCopropriete() {
             </p>
           </div>
         </ThemeBlock>
-
         <ThemeBlock
           theme="THÈME 12"
           title="Risque financier individuel et défaut de crédit"
@@ -394,6 +386,53 @@ export default function AuditCopropriete() {
           </div>
         </ThemeBlock>
 
+        {/* THÈME 13 - NOUVEAU THÈME */}
+        <ThemeBlock
+          theme="THÈME 13"
+          title="Obligation de résidence et Remboursement des aides"
+          status="PIÈGE À LA REVENTE"
+        >
+          <div className="bg-amber-50 p-6 border-l-4 border-amber-600 rounded-r-xl shadow-sm text-slate-900">
+            <h3 className="text-xl font-extrabold mb-4 flex items-center gap-2">
+              <AlertTriangle className="text-amber-600" /> Clause d'occupation
+              des 3 ans / 6 ans
+            </h3>
+            <div className="space-y-4 text-sm md:text-base leading-relaxed">
+              <p>
+                <strong>Le constat :</strong> Les aides individuelles (1 500 €
+                ou 3 000 € selon ressources) ainsi que la quote-part de l'aide
+                collective sont soumises à une condition de durée d'occupation.
+              </p>
+              <div className="bg-white p-4 border border-amber-200 rounded">
+                <p className="font-bold text-red-700 underline mb-2">
+                  La règle de l'Anah :
+                </p>
+                <p>
+                  Pour conserver le bénéfice des subventions, le logement doit
+                  être occupé à titre de <strong>résidence principale</strong>{" "}
+                  pendant une durée minimale (généralement fixée à{" "}
+                  <strong>3 ans</strong> après le versement de la prime pour
+                  MaPrimeRénov', mais pouvant s'étendre à <strong>6 ans</strong>{" "}
+                  pour certains dispositifs locaux ou spécifiques).
+                </p>
+              </div>
+              <p>
+                <strong>Le risque financier :</strong> Si vous vendez votre
+                appartement avant ce délai, ou si vous le mettez en location
+                alors que vous aviez déclaré l'occuper, l'Anah est en droit
+                d'exiger le <strong>remboursement au prorata</strong> des sommes
+                perçues.
+              </p>
+              <p className="font-bold italic bg-slate-100 p-3 rounded">
+                "En clair : ce projet vous 'enchaîne' à votre appartement. En
+                cas de mutation professionnelle, de divorce ou d'imprévu
+                nécessitant une vente rapide dans les années suivant le
+                chantier, vous devrez rendre une partie de vos aides, amputant
+                d'autant votre prix de vente."
+              </p>
+            </div>
+          </div>
+        </ThemeBlock>
         {/* ANNEXE */}
         <div id="annexe1" className="mt-20 pt-10 border-t-4 border-slate-900">
           <h2 className="text-3xl font-black mb-8 flex items-center gap-3">
