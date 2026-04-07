@@ -179,7 +179,7 @@ export default function AuditCopropriete() {
           <ul className="space-y-6">
             <li className="border-b pb-4">
               <span className="block font-bold text-lg mb-1">
-                Le chèque en blanc du Syndic (Point 15)
+                Honoraires du Syndic (Point 15)
               </span>
               <strong>Question :</strong> Les 120 000 € d'honoraires (2 %)
               sont-ils inclus dans les 5 millions ?
