@@ -7,6 +7,7 @@ import {
   ShieldAlert,
 } from "lucide-react";
 import ThemeBlock from "./SectionHeader";
+import Link from "next/link";
 
 export default function AuditCopropriete() {
   return (
@@ -53,7 +54,7 @@ export default function AuditCopropriete() {
               <p>
                 <strong>Le problème :</strong> L'aide MaPrimeRénov' est
                 conditionnée à un gain réel de 35 %. L'étude INSEE 2023 montre
-                que dans la réalité, ce gain plafonne souvent à 10 %. (Annexe 1)
+                que dans la réalité, ce gain plafonne souvent à 10 %.{" "}
               </p>
               <p>
                 <strong>Le risque :</strong> Si l'Anah effectue un contrôle
@@ -65,6 +66,12 @@ export default function AuditCopropriete() {
                 Conséquence : Un trou de plusieurs centaines de milliers d'euros
                 à combler par les copropriétaires.
               </p>
+              <Link
+                href="/#annexe1"
+                className="flex items-center gap-2 w-50 my-2 bg-slate-900 text-white px-6 py-3 rounded hover:bg-slate-700 transition-all font-bold"
+              >
+                LIEN ANNEXE
+              </Link>
             </div>
 
             <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-slate-400">
@@ -388,7 +395,7 @@ export default function AuditCopropriete() {
         </ThemeBlock>
 
         {/* ANNEXE */}
-        <div className="mt-20 pt-10 border-t-4 border-slate-900">
+        <div id="annexe1" className="mt-20 pt-10 border-t-4 border-slate-900">
           <h2 className="text-3xl font-black mb-8 flex items-center gap-3">
             <Scale className="text-slate-700" /> ANNEXE 1 : ÉTUDE INSEE
           </h2>
