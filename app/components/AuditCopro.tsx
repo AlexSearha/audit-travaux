@@ -1,4 +1,5 @@
 import {
+  CreditCard,
   ExternalLink,
   FileWarning,
   Info,
@@ -333,6 +334,59 @@ export default function AuditCopropriete() {
               des prix des matériaux (indice BT01) qui, lui, sera appliqué
               durant les 24 mois de chantier ?
             </p>
+          </div>
+        </ThemeBlock>
+
+        <ThemeBlock
+          theme="THÈME 12"
+          title="Risque financier individuel et défaut de crédit"
+          status="DANGER FINANCIER"
+        >
+          <div className="bg-slate-900 text-white p-8 rounded-xl shadow-lg border-l-8 border-red-600">
+            <h3 className="text-xl font-extrabold mb-6 flex items-center gap-2">
+              <CreditCard className="text-red-500" /> Risque financier si un
+              copropriétaire ne peut pas souscrire de crédit / que se passe t il
+              ?
+            </h3>
+            <div className="space-y-6 text-slate-200">
+              <p>
+                <strong>La réalité juridique :</strong> En cas de vote positif,
+                le budget de 5 millions devient une créance de la copropriété.
+                Si un résident se voit refuser son prêt bancaire ou ne peut pas
+                assumer les mensualités réelles (qui ne sont pas contractuelles)
+                :
+              </p>
+              <ul className="list-disc ml-6 space-y-4">
+                <li>
+                  <span className="text-red-400 font-bold">
+                    Appels de fonds immédiats :
+                  </span>{" "}
+                  Le copropriétaire doit régler sa quote-part intégralement
+                  selon l'échéancier des travaux, indépendamment de sa capacité
+                  de financement.
+                </li>
+                <li>
+                  <span className="text-red-400 font-bold">
+                    Procédure de recouvrement :
+                  </span>{" "}
+                  Le syndic est dans l'obligation de lancer des poursuites
+                  (mises en demeure, hypothèque légale) pour ne pas bloquer le
+                  chantier.
+                </li>
+                <li>
+                  <span className="text-red-400 font-bold">
+                    Risque de saisie :
+                  </span>{" "}
+                  À terme, l'impossibilité de payer ces travaux imposés peut
+                  mener à la saisie et la vente judiciaire du lot pour couvrir
+                  la dette.
+                </li>
+              </ul>
+              <p className="mt-4 p-4 bg-red-600/20 border border-red-600 rounded italic text-sm">
+                Aucune garantie n'a été apportée sur l'accompagnement des foyers
+                modestes ou des refus de prêt lors de la présentation.
+              </p>
+            </div>
           </div>
         </ThemeBlock>
 
