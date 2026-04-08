@@ -36,6 +36,15 @@ export default function AuditCopropriete() {
               l'état revient à accepter un risque de faillite technique et le
               remboursement potentiel des aides d'État.
             </p>
+            <br />
+            <p className="text-lg md:text-xl leading-relaxed italic">
+              Cette analyse s'appuie exclusivement sur les documents de
+              convocation et les guides officiels de l'Anah concernant
+              <strong className="mx-1">MaPrimeRénov' Copropriété.</strong> Les
+              risques mentionnés (condition des 35%, non-garantie des aides
+              avant vote) sont des faits contractuels extraits des rapports de
+              l'AMO et du cabinet Doucet.
+            </p>
           </div>
         </div>
       </header>
