@@ -513,6 +513,10 @@ export default function AuditCopropriete() {
         <p className="opacity-80">
           Document édité pour l'information des copropriétaires - Projet 2026
         </p>
+        <p className="mt-8 text-xs italic">
+          *Ce site est une analyse indépendante réalisée par un copropriétaire à
+          partir des pièces de la convocation
+        </p>
       </footer>
     </div>
   );
